@@ -1,0 +1,6 @@
+[
+    {"name":"Ruslan", "surname":"Ibrahimov", "age":22, "salary":"3500"},
+    {"name":"Kamran", "surname":"Qasimov", "age":25, "salary":"3000"},
+    {"name":"Fidan", "surname":"Huseynova", "age":20, "salary":"2000"},
+    {"name":"Nicat", "surname":"Huseynli", "age":20, "salary":"3000"}
+]
