@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,13 @@
     <link rel="stylesheet" href="style/style.css">
     <title>Document</title>
 </head>
+
 <body>
     <div id="btnform">
-        <button onclick="myfunction()" class="btn-click">Dropdown</button>
+        <div class="btn-icon">
+            <button onclick="myfunction(),iconfunction()" class="btn-click">Dropdown</button>
+            <i id="icon" class="fas fa-caret-down icon-first icon-revers"></i>
+        </div>
         <div id="link" class="link-border">
             <a href="#" class="link-disable">Select This Option</a>
             <a href="#" class="link-disable">Choose Something Else</a>
@@ -17,7 +22,9 @@
             <a href="#" class="link-disable">Contact us today</a>
         </div>
     </div>
-</div>
-<script src="/main.js"></script>
+    </div>
+    <script src="https://kit.fontawesome.com/0af7f83e73.js" crossorigin="anonymous"></script>
+    <script src="/task 2/main.js"></script>
 </body>
+
 </html>
